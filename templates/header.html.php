@@ -6,7 +6,7 @@
     <link rel="shortcut icon" href="/mains.png"/>
     <meta name="viewport" content="width=device-width,initial-scale=1"/>
     <meta name="theme-color" content="#000000"/>
-    <link rel="icon" type="image/png" href="/images/icones/favicon.png" />
+    <link rel="icon" type="image/png" href="images/icones/favicon.png" />
     <title>Emilie Schultz</title>
     <link href="css/style.css" rel="stylesheet">
     <link href="css/animate.css" rel="stylesheet">
