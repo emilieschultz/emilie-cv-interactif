@@ -1,0 +1,124 @@
+
+.nav-link.active {
+  border-bottom: 3px solid $orange-100;
+}
+
+.nav-link{
+  color: $dark;
+  @extend .px-0;
+  @extend .mx-3;
+}
+
+
+.header-title {
+  color: $primary;
+  font-size: 2rem;
+  padding-top: 50px;
+}
+
+.header p {
+  font-size: 1rem;
+}
+
+.header .subtitle {
+  color: $light;
+  margin-bottom: 30px;
+  font-size: 2.4rem;
+
+  &::after {
+    content: ' ';
+    display: block;
+    width: 80px;
+    margin-top: 10px;
+    background-color: $secondary;
+    height: 3px;
+  }
+}
+
+.header .logo {
+  color: $light;
+  @extend .mr-4;
+
+  &:hover {
+    color: $primary;
+    text-decoration: none;
+  }
+}
+
+
+.icon-img {
+  margin-bottom: 20px;
+  //width: 100px;
+
+  &.mains {
+    height: 40px;
+  }
+
+  &.crayon {
+    width: 100px;
+  }
+
+  &.chapeau {
+    width: 50px;
+  }
+
+  &.star {
+    width: 40px;
+  }
+
+  &.phone {
+    width: 30px;
+  }
+}
+
+
+.skill-circle {
+  color: $light;
+  border-radius: 50%;
+
+  position: relative;
+  width: 100%;
+
+  @extend .m-3;
+  @extend .text-center;
+
+  &::after {
+    content: '';
+    display: block;
+    padding-bottom: 100%;
+  }
+}
+
+.skill-circleContent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.p {
+  color: $light;
+}
+
+.downloadLink {
+  border: 1px solid $orange-100;
+  color: $light;
+  padding: 10px;
+  width: 250px;
+  text-align: center;
+}
+
+.iologo {
+  color: $light;
+  width: 25px;
+
+  &:hover {
+    color: $orange-100;
+  }
+}
