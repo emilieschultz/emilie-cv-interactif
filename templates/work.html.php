@@ -83,19 +83,19 @@ $imagesSites = [
 
         'title' => 'GeoSnoot',
         'smallURL' => 'images/sites/geosnoot_min.jpg',
-        'siteURL' => 'images/sites/geosnoot_min.jpg'
+        'siteURL' => 'http://geosnoot.emilieschultz.fr/'
     ],
     [
 
         'title' => 'leamuller.com',
         'smallURL' => 'images/sites/leaMuller.jpg',
-        'siteURL' => 'images/sites/leaMuller.jpg'
+        'siteURL' => 'https://www.leamuller.com/'
     ],
     [
 
         'title' => 'Harry Potter',
         'smallURL' => 'images/sites/harry_potter.jpg',
-        'siteURL' => 'images/sites/harry_potter.jpg'
+        'siteURL' => 'http://www.harrypotter.emilieschultz.fr/'
     ],
 ];
 
