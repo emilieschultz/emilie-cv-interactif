@@ -1,6 +1,6 @@
 <div id="skills" class="bg-light pb-6">
     <div class="pt-5 mb-6 text-dark text-center">
-        <img src="../images/icones/star.svg" alt="" class="icon-img star">
+        <img src="images/icones/star.svg" alt="" class="icon-img star">
         <h3>Compétences</h3>
     </div>
     <div class="container">

@@ -1,7 +1,7 @@
 <div id="contact" class="bg-dark pb-6">
 
     <div class="pt-5 mb-6 text-light text-center">
-        <img src="../images/icones/phone.svg" alt="" class="icon-img phone">
+        <img src="images/icones/phone.svg" alt="" class="icon-img phone">
         <h3>Contact</h3>
     </div>
 

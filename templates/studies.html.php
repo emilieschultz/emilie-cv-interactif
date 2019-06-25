@@ -55,7 +55,7 @@
 
 <div id="studies" class="bg-dark pb-6">
     <div class="pt-5 mb-6 text-light text-center">
-        <img src="../images/icones/chapeau.svg" alt="" class="icon-img chapeau">
+        <img src="images/icones/chapeau.svg" alt="" class="icon-img chapeau">
         <h3>Formations</h3>
     </div>
 

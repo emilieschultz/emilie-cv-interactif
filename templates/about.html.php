@@ -2,7 +2,7 @@
     <div class="row">
         <div class="col-md bg-primary  p-5 text-center d-flex flex-column justify-content-center align-items-center">
             <div class="undefined text-center">
-                <img src="../images/icones/mains.svg" alt="" class="icon-img mains">
+                <img src="images/icones/mains.svg" alt="" class="icon-img mains">
                 <h3>À propos</h3>
             </div>
         </div>
