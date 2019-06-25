@@ -20,7 +20,7 @@
             </div>
 
             <div class="d-flex align-items-center justify-content-center my-4"><a
-                    href="https://assets.ctfassets.net/rnvnzobusat8/10q1omnpUELJWf9XyedKGh/7fc5842ed1fa33476cf56b3f0bedc558/cv-emilie-schultz-2019.pdf"
+                    href="assets/cv-emilie-schultz-2019.pdf"
                     class="downloadLink" target="_blank" rel="noopener noreferrer">Téléchargez mon CV</a>
             </div>
 

@@ -1,11 +1,11 @@
 <?php
 $imagesIllustrations = [
-[
+    [
 
-'title' => 'Marie',
-    'smallURL' => '../images/illustrations/marinevhs.jpg',
-    'largeURL' => '../images/illustrations/marinevhs.jpg'
-],
+        'title' => 'Marie',
+        'smallURL' => '../images/illustrations/marinevhs.jpg',
+        'largeURL' => '../images/illustrations/marinevhs.jpg'
+    ],
     [
 
         'title' => 'Céléna',
@@ -54,7 +54,7 @@ $imagesIllustrations = [
         'smallURL' => '../images/illustrations/hellboy.jpg',
         'largeURL' => '../images/illustrations/hellboy.jpg'
     ],
-    ];
+];
 
 $imagesLogotypes = [
     [
@@ -75,7 +75,7 @@ $imagesLogotypes = [
         'smallURL' => '../images/logotypes/ludette.png',
         'largeURL' => '../images/logotypes/ludette.png'
     ],
-    ];
+];
 
 
 $imagesSites = [
@@ -83,19 +83,19 @@ $imagesSites = [
 
         'title' => 'GeoSnoot',
         'smallURL' => '../images/sites/geosnoot_min.jpg',
-        'largeURL' => '../images/sites/geosnoot_min.jpg'
+        'siteURL' => '../images/sites/geosnoot_min.jpg'
     ],
     [
 
         'title' => 'leamuller.com',
         'smallURL' => '../images/sites/leaMuller.jpg',
-        'largeURL' => '../images/sites/leaMuller.jpg'
+        'siteURL' => '../images/sites/leaMuller.jpg'
     ],
     [
 
         'title' => 'Harry Potter',
         'smallURL' => '../images/sites/harry_potter.jpg',
-        'largeURL' => '../images/sites/harry_potter.jpg'
+        'siteURL' => '../images/sites/harry_potter.jpg'
     ],
 ];
 
@@ -144,75 +144,76 @@ $imagesWebdesign = [
         <div class="col-8 offset-2">
             <ul class="justify-content-center nav" role="tablist">
                 <li class="nav-item">
-                    <a href="#left-tabs-example-tabpane-0" role="tab" data-toggle="tab" id="left-tabs-example-tab-0"
-                                         aria-controls="left-tabs-example-tabpane-0" aria-selected="true"
-                                         class="nav-link active">Illustrations</a>
+                    <a href="#illustrations" role="tab" data-toggle="tab" id="left-tabs-example-tab-0"
+                       aria-controls="illustrations" aria-selected="true"
+                       class="nav-link active">Illustrations</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#left-tabs-example-tabpane-1" role="tab" data-toggle="tab" id="left-tabs-example-tab-1"
-                                         aria-controls="left-tabs-example-tabpane-1" tabindex="-1" aria-selected="false"
-                                         class="nav-link">Logotypes</a>
+                    <a href="#logotypes" role="tab" data-toggle="tab" id="left-tabs-example-tab-1"
+                       aria-controls="logotypes" tabindex="-1" aria-selected="false"
+                       class="nav-link">Logotypes</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#left-tabs-example-tabpane-2" role="tab" data-toggle="tab" id="left-tabs-example-tab-2"
-                                         aria-controls="left-tabs-example-tabpane-2" tabindex="-1" aria-selected="false"
-                                         class="nav-link">Sites en lignes</a>
+                    <a href="#sites" role="tab" data-toggle="tab" id="left-tabs-example-tab-2"
+                       aria-controls="sites" tabindex="-1" aria-selected="false"
+                       class="nav-link">Sites en lignes</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#left-tabs-example-tabpane-3" role="tab" data-toggle="tab" id="left-tabs-example-tab-3"
-                                         aria-controls="left-tabs-example-tabpane-3" tabindex="-1" aria-selected="false"
-                                         class="nav-link">Webdesign</a>
+                    <a href="#webdesign" role="tab" data-toggle="tab" id="left-tabs-example-tab-3"
+                       aria-controls="webdesign" tabindex="-1" aria-selected="false"
+                       class="nav-link">Webdesign</a>
                 </li>
             </ul>
 
             <div class="mt-6 tab-content" id="tab-work">
-                <div id="left-tabs-example-tabpane-0" aria-labelledby="left-tabs-example-tab-0" role="tabpanel"
+                <div id="illustrations" aria-labelledby="left-tabs-example-tab-0" role="tabpanel"
                      aria-hidden="false" class="fade tab-pane active show">
                     <div class="row">
                         <?php foreach ($imagesIllustrations as $image) : ?>
                             <div class="col-4 mb-4">
-                                <div>
+                                <a href="<?php echo $image['largeURL']; ?>" class="popup">
                                     <img src="<?php echo $image['smallURL']; ?>" alt="" class="w-100"/>
-                        </div>
-                    </div>
+                                </a>
+                            </div>
                         <?php endforeach; ?>
                     </div>
                 </div>
 
-                <div id="left-tabs-example-tabpane-1" aria-labelledby="left-tabs-example-tab-1" role="tabpanel"
+                <div id="logotypes" aria-labelledby="left-tabs-example-tab-1" role="tabpanel"
                      aria-hidden="true" class="fade tab-pane">
                     <div class="row">
                         <?php foreach ($imagesLogotypes as $image) : ?>
                             <div class="col-4 mb-4">
-                                <div>
+                                <a href="<?php echo $image['largeURL']; ?>" class="popup">
                                     <img src="<?php echo $image['smallURL']; ?>" alt="" class="w-100"/>
-                                </div>
+                                </a>
                             </div>
                         <?php endforeach; ?>
                     </div>
                 </div>
 
-                <div id="left-tabs-example-tabpane-2" aria-labelledby="left-tabs-example-tab-2" role="tabpanel"
+                <div id="sites" aria-labelledby="left-tabs-example-tab-2" role="tabpanel"
                      aria-hidden="true" class="fade tab-pane">
                     <div class="row">
                         <?php foreach ($imagesSites as $image) : ?>
                             <div class="col-4 mb-4">
-                                <div>
+                                <a href="<?php echo $image['siteURL']; ?>" target="_blank">
                                     <img src="<?php echo $image['smallURL']; ?>" alt="" class="w-100"/>
-                                </div>
+                                </a>
                             </div>
                         <?php endforeach; ?>
                     </div>
                 </div>
 
-                <div id="left-tabs-example-tabpane-3" aria-labelledby="left-tabs-example-tab-3" role="tabpanel"
+                <div id="webdesign" aria-labelledby="left-tabs-example-tab-3" role="tabpanel"
                      aria-hidden="true" class="fade tab-pane">
                     <div class="row">
                         <?php foreach ($imagesWebdesign as $image) : ?>
                             <div class="col-4 mb-4">
-                                <div>
+                                <a href="<?php echo $image['largeURL']; ?>" class="popup">
+
                                     <img src="<?php echo $image['smallURL']; ?>" alt="" class="w-100"/>
-                                </div>
+                                </a>
                             </div>
                         <?php endforeach; ?>
                     </div>
