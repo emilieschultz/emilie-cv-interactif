@@ -1,6 +1,5 @@
 <div id="footer" class="bg-dark pb-1">
-    <div class="justify-content-center align-items-end d-flex"><p class="text-light">© Emilie Schultz 2019. All rights
-        reserved | Mention légales</p></div>
+    <div class="justify-content-center align-items-end d-flex"><p class="text-light">© Emilie Schultz 2019. Tous droits réservés | Mention légales</p></div>
 </div>
 
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
